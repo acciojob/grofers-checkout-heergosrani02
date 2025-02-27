@@ -16,7 +16,7 @@ const getSum = () => {
 	totalPriceData.innerText = "Total Price: " + total;
 	totalPriceRow.appendChild(totalPriceData);
 
-	const table = document.getElementById("myTable");
+	const table = document.getElementById("ans");
     table.appendChild(totalPriceRow);
 };
 
